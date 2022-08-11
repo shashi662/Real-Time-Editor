@@ -1,0 +1,147 @@
+.homePageWrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.formWrapper {
+    background-color: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.homepageLogo {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background-color: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: normal;
+}
+
+.joinBtn {
+    background-color: #4aed88;
+    width: 100px;
+    margin-left: auto;
+}
+
+.joinBtn:hover {
+    background-color: #2b824c;
+}
+
+.createInfo {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.createNewBtn {
+    color: #368654;
+    text-decoration: none;
+    border-bottom: 1px solid #2b824c;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+    color: #4aed88;
+    border-color: #368654
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+}
+
+.aside {
+    background-color: #1c1e29;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.userName {
+    margin-top: 10px;
+}
+
+.logo {
+    border-bottom: 1px solid #424242;
+}
+
+.logoImage {
+    height: 80px;
+    width: 100%;
+}
+
+.leaveBtn {
+    margin-top: 20px;
+    background: rgb(131, 139, 89);
+}
+
+.leaveBtn:hover {
+    background-color: rgb(210, 79, 79);
+}
+
+.CodeMirror {
+    min-height: calc(100vh - 16px);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
